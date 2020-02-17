@@ -6,6 +6,6 @@ describe('Airport', function() {
     airport = new airport();
   });
   it ('can keep track of planes', function(){
-    expect(airport.planes()).not.toBeUndefined()
+    expect(airport.planes()).toEqual([])
   });
 });
